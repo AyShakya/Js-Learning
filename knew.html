@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <p id="demo">Lorem ipsum dolor sit amet.
+    </p>
+    <button id="h" type="button">click here</button>
+</body>
+<script>
+    document.getElementById("demo").innerHTML="new paragraph";
+    let h=document.getElementById("h");
+    h.addEventListener("onclick", (e)=>{
+        document.getElementById("demo").innerHTML="helloo para";
+    });
+</script>
+</html>
